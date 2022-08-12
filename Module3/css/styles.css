@@ -13,12 +13,22 @@
   line-height: 20px;
 }
 
+.dish-header {
+	text-align: center;
+}
+
+.container{
+	padding-left: 1.0em;
+	padding-right: 1.0em;
+}
+
 #nav-list{
 	margin-top: 10px;
 }
 
 #nav-list a {
-	color: #95149;
+	color: darkred;
+	background-color: ivory;
 	text-align:  center;
 }
 
@@ -29,3 +39,14 @@
 #nav-list a span {
 	font-size:  1.8em;
 }
+
+#title {
+	font-size:  3.0em;
+	font-weight: bolder;
+}
+
+#main-content {
+	background-color: dimgray;
+	color: white;
+}
+
