@@ -1,0 +1,31 @@
+/** Header **/
+#header-nav {
+	background-color: #999999;	
+	border-radius: 5;
+	border: 5;
+}
+
+.navbar-brand {
+  float: left;
+  height: 100px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #95149;
+	text-align:  center;
+}
+
+#nav-list a:hover {
+	background:  #E7E7E7;
+}
+
+#nav-list a span {
+	font-size:  1.8em;
+}
