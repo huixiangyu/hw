@@ -40,7 +40,16 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // Loop over the names array and say either 'Hello' or "Good Bye"
 // using either the helloSpeaker's or byeSpeaker's 'speak' method.
 // See Lecture 50, part 1
-for (/* fill in parts of the 'for' loop to loop over names array */) {
+for (var name in names) {
+  var firstLetter = names[name].charAt(0);
+  if (firstLetter.toLowerCase() == "j"){
+    byeSpeaker.speak(names[name]);
+  } else{
+    helloSpeaker.speak(names[name]);
+  }
+}
+
+  /* fill in parts of the 'for' loop to loop over names array */ 
 
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
@@ -56,9 +65,9 @@ for (/* fill in parts of the 'for' loop to loop over names array */) {
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-  if (/* fill in condition here */) {
-    // byeSpeaker.xxxx
-  } else {
-    // helloSpeaker.xxxx
-  }
-}
+//   if (/* fill in condition here */) {
+//     // byeSpeaker.xxxx
+//   } else {
+//     // helloSpeaker.xxxx
+//   }
+// }
